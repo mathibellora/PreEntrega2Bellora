@@ -4,10 +4,33 @@
 }
 
 body{
-    background-color: green;
-    font-family: "Bangers", system-ui;
+    background-color: green !important;
+    font-family: "Bangers", system-ui !important;
     font-weight: 400;
     font-style: normal;
+}
 
+.inicio{
+    height: 100%;
+}
+
+.splinter{
+    height: 100%;
+}
+
+.leonardo{
+    height: 100%;
+}
+
+.raphael{
+    height: 100%;
+}
+
+.michelangelo{
+    height: 100%;
+}
+
+.donatello{
+    height: 100%;
 }
 
