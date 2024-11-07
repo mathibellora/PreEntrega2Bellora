@@ -1,36 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body{
-    background-color: green !important;
     font-family: "Bangers", system-ui !important;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    text-align: center !important;
 }
 
-.inicio{
-    height: 100%;
+.titulo{
+    background-color: black;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.splinter{
-    height: 100%;
+.row {
+    padding-top: 25px;
 }
 
-.leonardo{
-    height: 100%;
+.footer-custom{
+    height: 60px;
+    font-size: smaller;
 }
 
-.raphael{
-    height: 100%;
+
+ @media only screen and (min-width: 601px) {
+
+    .row-custom{
+        height: 100%;
+    }
+    
 }
 
-.michelangelo{
-    height: 100%;
-}
+@media only screen and (max-width: 600px) {
 
-.donatello{
-    height: 100%;
+    #donatello{
+        margin-bottom: 10%;
+    }
+    
 }
 
