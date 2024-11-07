@@ -1,37 +1,106 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Tortugas Ninjas - Inicio</title>
-    <link rel="icon" href="images/ma.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li> <a href="./index.html">Inicio</a></li>
-            <li> <a href="./leonardo.html">Leonardo</a></li>
-            <li> <a href="./raphael.html">Raphael</a></li>
-            <li> <a href="./michelangelo.html">Michelangelo</a></li>
-            <li> <a href="./donatello.html">Donatello</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1 class="header">Tortugas Ninjas -INICIO</h1>
-    </header>
-    <section>
-        <article>
-            <img src="./images/tortugas.jpg" alt="Tortugas" class="center-img">
-        </article>
-        <aside>
-            <p>Splinter, un honorable maestro ninja llamado Hamato Yoshi. Yoshi fue expulsado del Foot Clan en Japón después de ser engañado por Oroku Saki, quien colgó el keikogi de Yoshi contra la pared con un cuchillo, impidiéndole arrodillarse frente al sensei, lo que fue visto como un insulto. Cuando Yoshi sacó el cuchillo, el sensei volvió a ser insultado, creyendo que Yoshi estaba apuntando el filo hacia su dirección. Exiliado del clan ninja, el deshonrado Yoshi se trasladó a Nueva York, donde se vio obligado a vivir en las alcantarillas. Viviendo en las alcantarillas junto a las ratas, un día Yoshi encontró cuatro tortugas, recientemente compradas en una tienda de mascotas por un niño que las lanzó accidentalmente por el alcantarillado. Después de un día de explorar los alrededores de la ciudad de Nueva York, Yoshi encontró las tortugas cubiertas con un brillo irradiante. La sustancia resultó ser un potente mutágeno que transformaba a quienes se exponían a ella otorgándole tributos de algún organismo con que hubiera tenido contacto repetitivo. Así volvió humanoides a las tortugas ya que estuvieron en contacto con Yoshi, mientras que a Yoshi, quien pasaba mucho tiempo con las ratas de las alcantarillas, se transformó en una rata humanoide y comenzó a ser conocido bajo el pseudónimo de "Splinter". Esta, y la de los siguientes cómics de las Tortugas Ninja, es la única historia original en la franquicia de Las Tortugas Ninja donde las tortugas llegan a Yoshi antes de ser expuestas al mutágeno. Además, Yoshi se transforma en una rata, mientras que en la mayoría de las otras versiones, es una rata que Yoshi tiene como mascota la que se transforma en humanoide. Esta es la única versión en donde las tortugas crecen inmediatamente después de tener contacto con el mutángeno, mientras que Splinter las cría desde más jóvenes en otras versiones. Yoshi adopta a las cuatro tortugas como sus hijos y los entrena en el arte del ninjitsu. Les da nombres inspirados en sus artistas favoritos del renacimiento italiano: Leonardo da Vinci (Leonardo), Donato di Niccolò di Betto Bardi (Donatello), Raffaello Sanzio (Raphael) y Michelangelo Buonarroti (Michelangelo). En la mayoría de las versiones, las tortugas son comúnmente llamadas por sus pseudonimos: Leo, Donnie, Raph y Mikey, pero en esta versión son conocidas por sus nombres completos. Cada tortuga ninja usa una antifaz sobre sus ojos con un color distintivo y cada una está entrenada en el uso de un arma.</p>
-        </aside>
-    </section>
-    <footer>
-        <p>Autor: Mathias Bellora</p>
-        <p><a href="mailto:mathibellora@gmail.com">mathibellora@gmail.com</a></p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tortugas Ninjas</title>
+        <link rel="icon" href="images/ma.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="cointainer-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="images/ma.ico" width="30" height="30" alt="tortuga">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Inicio</a>
+                    <a class="nav-item nav-link" href="#">Splinter</a>
+                    <a class="nav-item nav-link" href="#">Leonardo</a>
+                    <a class="nav-item nav-link" href="#">Raphael</a>
+                    <a class="nav-item nav-link" href="#">Michelangelo</a>
+                    <a class="nav-item nav-link" href="#">Donatello</a>
+                  </div>
+                </div>
+            </nav>
+
+            <div class="inicio row">
+                <h1 class="header">Tortugas Ninjas</h1>
+                <div class="izq col-6">
+                    <img src="./images/tortugas.jpg" alt="Tortugas" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>Les da nombres inspirados en sus artistas favoritos del renacimiento italiano: Leonardo da Vinci (Leonardo), Donato di Niccolò di Betto Bardi (Donatello), Raffaello Sanzio (Raphael) y Michelangelo Buonarroti (Michelangelo). En la mayoría de las versiones, las tortugas son comúnmente llamadas por sus pseudonimos: Leo, Donnie, Raph y Mikey, pero en esta versión son conocidas por sus nombres completos. Cada tortuga ninja usa una antifaz sobre sus ojos con un color distintivo y cada una está entrenada en el uso de un arma.</p>                    
+                </div>
+            </div>
+
+            <div class="splinter row">
+                <h1 class="header">Splinter</h1>
+                <div class="izq col-6">
+                    <img src="./images/splinter.jpg" alt="Splinter" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>Splinter, un honorable maestro ninja llamado Hamato Yoshi. Yoshi fue expulsado del Foot Clan en Japón después de ser engañado por Oroku Saki, quien colgó el keikogi de Yoshi contra la pared con un cuchillo, impidiéndole arrodillarse frente al sensei, lo que fue visto como un insulto. Cuando Yoshi sacó el cuchillo, el sensei volvió a ser insultado, creyendo que Yoshi estaba apuntando el filo hacia su dirección. Exiliado del clan ninja, el deshonrado Yoshi se trasladó a Nueva York, donde se vio obligado a vivir en las alcantarillas. Viviendo en las alcantarillas junto a las ratas, un día Yoshi encontró cuatro tortugas, recientemente compradas en una tienda de mascotas por un niño que las lanzó accidentalmente por el alcantarillado. Después de un día de explorar los alrededores de la ciudad de Nueva York, Yoshi encontró las tortugas cubiertas con un brillo irradiante. La sustancia resultó ser un potente mutágeno que transformaba a quienes se exponían a ella otorgándole tributos de algún organismo con que hubiera tenido contacto repetitivo. Así volvió humanoides a las tortugas ya que estuvieron en contacto con Yoshi, mientras que a Yoshi, quien pasaba mucho tiempo con las ratas de las alcantarillas, se transformó en una rata humanoide y comenzó a ser conocido bajo el pseudónimo de "Splinter". Esta, y la de los siguientes cómics de las Tortugas Ninja, es la única historia original en la franquicia de Las Tortugas Ninja donde las tortugas llegan a Yoshi antes de ser expuestas al mutágeno. Además, Yoshi se transforma en una rata, mientras que en la mayoría de las otras versiones, es una rata que Yoshi tiene como mascota la que se transforma en humanoide. Esta es la única versión en donde las tortugas crecen inmediatamente después de tener contacto con el mutángeno, mientras que Splinter las cría desde más jóvenes en otras versiones. Yoshi adopta a las cuatro tortugas como sus hijos y los entrena en el arte del ninjitsu. </p>                    
+                </div>
+            </div>
+
+            <div class="leonardo row">
+                <h1 class="header">Leonardo</h1>
+                <div class="izq col-6">
+                    <img src="./images/leonardo.jpg" alt="Leonardo" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>La tortuga del antifaz azul con dos katanas. Es el líder del grupo y el más cercano a Splinter.</p>
+                </div>
+            </div>
+
+            <div class="raphael row">
+                <h1 class="header">Raphael</h1>
+                <div class="izq col-6">
+                    <img src="./images/raphael.jpg" alt="Raphael" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>La tortuga del antifaz rojo, lleva consigo dos sai. Es el más serio e independiente del grupo y a menudo hace comentarios sarcásticos e ingeniosos.</p>
+                </div>
+            </div>
+
+            <div class="michelangelo row">
+                <h1 class="header">Michelangelo</h1>
+                <div class="izq col-6">
+                    <img src="./images/michelangelo.jpg" alt="Michelangelo" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>La tortuga del antifaz anaranjado, usa los nunchakus y más tarde un garfio. Es el miembro más joven e inmaduro del equipo, especialmente conocido por ser un glotón y la fuente de varias frases memorables de la serie como "Cowabunga!".</p>
+                </div>
+            </div>
+
+            <div class="donatello row">
+                <h1 class="header">Donatello</h1>
+                <div class="izq col-6">
+                    <img src="./images/donatello.jpg" alt="Donatello" class="center-img">
+                </div>
+                <div class="der col-6">
+                    <p>La tortuga del antifaz púrpura con un bō. Es el científico del grupo y constantemente perfecciona sus inventos.</p>
+                </div>
+            </div>
+
+
+
+            <footer class="text-center mt-auto ">
+                <p>Autor: Mathias Bellora</p>
+                <p><a href="mailto:mathibellora@gmail.com">mathibellora@gmail.com</a></p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
